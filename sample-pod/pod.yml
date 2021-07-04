@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-example
+  labels:
+    app: nginx
+spec:
+  containers:
+    - name: nginx
+      image: linuxserver/nginx
+      ports:
+        - containerPort: 80
+          name: "nginx-http"
+      resources:
+        requests:
+          memory: "64Mi"
+          cpu: "250m"
+        limits:
+          memory: "128Mi"
+          cpu: "500m"
