@@ -24,6 +24,10 @@
 
 ## Cluster Monitoring
 
+## Cluster Cleanup
+
+Refer to <https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/#tear-down>
+
 ## References & Useful links
 
 - <https://uthark.github.io/post/2020-09-02-installing-kubernetes-raspberrypi/>
