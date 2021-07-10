@@ -80,7 +80,7 @@ cat /sys/class/thermal/cooling_device0/cur_state
 ### To turn on/off the fan manually
 
 ```bash
-echo '0' > /sys/class/thermal/cooling_device0/cur_state
+echo '0' | sudo tee /sys/class/thermal/cooling_device0/cur_state
 ```
 
 ### References
