@@ -62,11 +62,11 @@ CURRENT: 000138a1
 
    ```bash
    [pi4]
-    max_framebuffers=2
-    dtoverlay=vc4-fkms-v3d
-    boot_delay
-    kernel=vmlinux
-    initramfs initrd.img followkernel
+   max_framebuffers=2
+   dtoverlay=vc4-fkms-v3d
+   boot_delay
+   kernel=vmlinux
+   initramfs initrd.img followkernel
    ```
 
 1. Add a new script to the boot partition called auto_decompress_kernel with the following: (NOTE - Reference [here](https://www.raspberrypi.org/forums/viewtopic.php?t=281152))
