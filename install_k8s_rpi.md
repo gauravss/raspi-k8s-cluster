@@ -165,6 +165,16 @@ kube-system   kube-scheduler-pik8s-controller            1/1     Running   0    
 
 Run the join command on each worker node. This command was provided in the earlier step.
 
+### If the token is expired or removed
+
+Run the following command on the controller node 
+
+```bash
+kubeadm token create --print-join-command
+```
+
+Use the output as join command.
+
 ### Check status of nodes
 
 To check if the nodes have joined successfully, run the following command
