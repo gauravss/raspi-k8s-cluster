@@ -167,7 +167,7 @@ Run the join command on each worker node. This command was provided in the earli
 
 ### If the token is expired or removed
 
-Run the following command on the controller node 
+Run the following command on the controller node
 
 ```bash
 kubeadm token create --print-join-command
